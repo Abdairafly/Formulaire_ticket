@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -145,3 +146,111 @@
         <link rel="stylesheet" href="/assets/Js/signature.js">
 </body>
 </html>
+=======
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire Plomb'Services</title>
+  <!-- Ajout de Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/signature_pad/1.5.3/signature-pad.min.css">
+
+</head>
+<body>
+<div class="container">
+  <h1 class="mb-4 text-center"><strong>Plomb'Services</strong></h1>
+  <form>
+    <div class="form-group">
+      <label for="client">Client :</label>
+      <input type="text" class="form-control" id="client" placeholder="Nom du client">
+    </div>
+    <div class="form-group">
+      <label for="adresse">Adresse :</label>
+      <input type="text" class="form-control" id="adresse" placeholder="Adresse du client">
+    </div>
+    <div class="form-group">
+      <label for="telephone">Téléphone :</label>
+      <input type="tel" class="form-control" id="telephone" placeholder="Numéro de téléphone">
+    </div>
+    <div class="form-group">
+      <label for="date_demande">Date demande :</label>
+      <input type="date" class="form-control" id="date_demande">
+    </div>
+    <div class="form-group">
+      <label for="date_intervention">Date d'intervention :</label>
+      <input type="date" class="form-control" id="date_intervention">
+    </div>
+    <div class="form-group">
+      <label for="num_demande">N° Demande :</label>
+      <input type="text" class="form-control" id="num_demande" placeholder="Numéro de demande">
+    </div>
+    <div class="form-group">
+      <label for="intervention_demandee">Intervention demandée par :</label>
+      <input type="text" class="form-control" id="intervention_demandee" placeholder="Nom de la personne demandant l'intervention">
+    </div>
+    <div class="form-group">
+      <label for="num_chantier">N° de chantier :</label>
+      <input type="text" class="form-control" id="num_chantier" placeholder="Numéro de chantier">
+    </div>
+    <div class="form-group">
+      <label for="designation">DESIGNATION TRAVAUX :</label>
+      <textarea class="form-control" id="designation" rows="4" placeholder="Description des travaux"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="ref_articles">Réf. Articles :</label>
+      <input type="text" class="form-control" id="ref_articles" placeholder="Référence des articles">
+    </div>
+    <!-- Ajouter d'autres champs de travail ici -->
+    
+    <div class="form-group">
+      <label for="technicien">Technicien :</label>
+      <input type="text" class="form-control" id="technicien" placeholder="Nom du technicien">
+    </div>
+    <div class="form-group">
+      <label for="jours">Jour :</label>
+      <input type="text" class="form-control" id="jours" placeholder="Jour de la semaine">
+    </div>
+    <div class="form-group">
+      <label for="total_heures">Total Heures :</label>
+      <input type="number" class="form-control" id="total_heures" placeholder="Total des heures">
+    </div>
+    <div class="form-group">
+      <label for="forfait_deplacement">Forfait déplacement :</label>
+      <input type="number" class="form-control" id="forfait_deplacement" placeholder="Forfait de déplacement">
+    </div>
+    
+    <div class="form-group">
+        <label for="signature_client">Signature du client :</label>
+        <div class="signature-container">
+          <canvas id="signatureClientCanvas" class="signature-canvas" width="300" height="150"></canvas>
+          <button type="button" id="clearSignatureClient" class="btn btn-primary btn-clear-signature">Effacer</button>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label for="signature_technicien">Signature Technicien :</label>
+        <div class="signature-container">
+          <canvas id="signatureTechnicienCanvas" class="signature-canvas" width="300" height="150"></canvas>
+          <button type="button" id="clearSignatureTechnicien" class="btn btn-primary btn-clear-signature">Effacer</button>
+        </div>
+      </div>
+    <div class="form-group">
+      <label for="observations">OBSERVATIONS :</label>
+      <textarea class="form-control" id="observations" rows="4" placeholder="Observations"></textarea>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Soumettre</button>
+  </form>
+</div>
+
+<!-- Ajout de Bootstrap JS (si nécessaire) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="/sign.js">
+</body>
+</html>
+>>>>>>> 56bb35841f589134d22824c0ad531e3f5ed4cb14
